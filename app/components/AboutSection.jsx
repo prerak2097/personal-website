@@ -63,9 +63,9 @@ const AboutSection = () => {
             <div className='mt-4 md:mt-0 text-left flex flex-col h-full'>
                 <h2 className='text-4xl font-bold text-white mb-4'>About Me</h2>
                 <p className='text-base md:text-lg'> 
-                    I'm a software engineer with a deep love for navigating the ever-changing tech landscape. I'm all about learning and refining my skills with each new challenge. From coding to system architectures, I'm constantly exploring what's next. I take pride in turning ideas into impactful, functional software and enjoy team environments.
-                    Beyond tech, I'll be exploring the world, savoring new foods, capturing moments through photography, and eyeing financial markets.
-                    Let's connect and chat about tech, travel, and all things in between.
+                    I&apos;m a software engineer with a deep love for navigating the ever-changing tech landscape. I&apos;m all about learning and refining my skills with each new challenge. From coding to system architectures, I&apos;m constantly exploring what&apos;s next. I take pride in turning ideas into impactful, functional software and enjoy team environments.
+                    Beyond tech, I&apos;ll be exploring the world, savoring new foods, capturing moments through photography, and eyeing financial markets.
+                    Let&apos;s connect and chat about tech, travel, and all things in between.
                 </p>
                 <div className='flex flex-row mt-8'>
                     <TabButton 
