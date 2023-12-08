@@ -1,9 +1,7 @@
-import Image from 'next/image'
 import HeroSection from './components/HeroSection'
 import NavBar from './components/NavBar'
 import AboutSection from './components/AboutSection'
 import ImageGallery from './components/ImageGallery'
-import ContactLinks from './components/ContactLinks'
 import EmailSection from './components/EmailSection'
 export default function Home() {
   return (
