@@ -47,7 +47,7 @@ const HeroSection = () => {
                         alt="alt text"
                         target="_blank"
                         rel="noopener noreferrer"
-                        >Download FIle</a>
+                        >Download CV</a>
                     </button>
                 </div>
             </div>
