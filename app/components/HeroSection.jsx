@@ -38,17 +38,21 @@ const HeroSection = () => {
                     Welcome to my Digital Space—a glimpse beyond the confines of a CV.
                 </p>
                 <div>
+                <a href="http://www.linkedin.com/in/prerak2000" target="_blank">
                     <button className='px-6 py-3 w-full sm:w-fit rounded-full mr-4 hover: bg-blue-600 text-white'>
-                        <a href="http://www.linkedin.com/in/prerak2000" target="_blank">LinkedIn</a>
+                        LinkedIn
                     </button>
+                </a>
+                <a
+                    href="/files/CS.Resume.pdf"
+                    alt="alt text"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >
                     <button className='px-6 py-3 w-full sm:w-fit rounded-full bg-transparent hover:bg-slate-800 text-white border border-white mt-3'>  
-                    <a
-                        href="/files/CS.Resume.pdf"
-                        alt="alt text"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        >Download CV</a>
+                        Download CV
                     </button>
+                </a>
                 </div>
             </div>
             <div className='col-span-5 place-self-center mt-4 lg:mt-0'>
