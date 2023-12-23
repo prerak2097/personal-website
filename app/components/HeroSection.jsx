@@ -26,7 +26,7 @@ const HeroSection = () => {
                             1000,
                             'an experience seeker',
                             1000,
-                            'am based in NYC',
+                            'based in NYC',
                             1000
                         ]}
                         wrapper="span"
