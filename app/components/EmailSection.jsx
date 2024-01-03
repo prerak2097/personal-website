@@ -16,28 +16,29 @@ const EmailSection = () => {
       message: e.target.message.value,
     };
     const JSONdata = JSON.stringify(data);
-    const endpoint = "<https://mfr8e2dj14.execute-api.us-east-1.amazonaws.com/default/SendContactEmail>";
+    const endpoint = "https://mfr8e2dj14.execute-api.us-east-1.amazonaws.com/default/SendContactEmail";
 
     // Form the request for sending data to the server.
     const options = {
       // The method is POST because we are sending data.
       method: "POST",
+      mode: 'no-cors',
       // Tell the server we're sending JSON.
       headers: {
+        
         "Content-Type": "application/json",
       },
       // Body of the request is the JSON data we created above.
       body: JSONdata,
     };
 
-
-    const response = await fetch(endpoint, options);
-    const resData = await response.json();
-
-    if (response.status === 200) {
-      console.log("Message sent.");
+    fetch(endpoint, options)
+    .then((response) => {
       setEmailSubmitted(true);
-    }
+    })
+    .catch((error) => {
+      console.log("Some Error Occurred")
+    });
   };
 
   return (
@@ -58,7 +59,7 @@ const EmailSection = () => {
       </div>
       <div className="z-10 flex justify-center p-4">
         {emailSubmitted ? (
-          <p className="text-green-500 text-sm mt-2">
+          <p className="text-blue-500 text-sm mt-2">
             Email sent successfully!
           </p>
         ) : (
