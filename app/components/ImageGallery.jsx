@@ -33,7 +33,7 @@ const ImageGallery = () => {
     const imageToRender = windowWidth >= 768 ? largeimages : smallimages;
     const zoomInProperties = {
         scale: 1,
-        duration:1000, // how long to wait before changing images
+        duration:2000, // how long to wait before changing images
         transitionDuration:300, // transition time per image
         Infinity:true, // loop to infinity
 
