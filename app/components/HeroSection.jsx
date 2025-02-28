@@ -44,7 +44,7 @@ const HeroSection = () => {
                     </button>
                 </a>
                 <a
-                    href="/files/CS.Resume.pdf"
+                    href="/CS.Resume.pdf"
                     alt="alt text"
                     target="_blank"
                     rel="noopener noreferrer"
